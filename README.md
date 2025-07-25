@@ -1,4 +1,4 @@
-🛡️ Log Enrichment Project
+#🛡️ Log Enrichment Project
 
 This repository contains system log data and enriched logs for further analysis and visualization. The goal of this project is to demonstrate how raw system logs can be transformed into enriched datasets for better insights into system activities and security events.
 📂 Repository Structure
