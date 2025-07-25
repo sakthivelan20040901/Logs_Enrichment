@@ -1,0 +1,114 @@
+==> /var/log/httpd/access_log <==
+42.104.132.24 - - [25/Jul/2025:14:22:30 +0000] "GET /index.html HTTP/1.1" 404 196 "-" "curl/8.5.0"
+42.104.132.24 - - [25/Jul/2025:14:22:31 +0000] "GET /favicon.ico HTTP/1.1" 404 196 "-" "curl/8.5.0"
+42.104.132.24 - - [25/Jul/2025:14:22:31 +0000] "GET /index.html HTTP/1.1" 404 196 "-" "curl/8.5.0"
+42.104.132.24 - - [25/Jul/2025:14:22:32 +0000] "GET /favicon.ico HTTP/1.1" 404 196 "-" "curl/8.5.0"
+42.104.132.24 - - [25/Jul/2025:14:22:33 +0000] "GET /index.html HTTP/1.1" 404 196 "-" "curl/8.5.0"
+42.104.132.24 - - [25/Jul/2025:14:22:33 +0000] "GET /favicon.ico HTTP/1.1" 404 196 "-" "curl/8.5.0"
+42.104.132.24 - - [25/Jul/2025:14:22:34 +0000] "GET /index.html HTTP/1.1" 404 196 "-" "curl/8.5.0"
+42.104.132.24 - - [25/Jul/2025:14:22:34 +0000] "GET /favicon.ico HTTP/1.1" 404 196 "-" "curl/8.5.0"
+42.104.132.24 - - [25/Jul/2025:14:22:35 +0000] "GET /index.html HTTP/1.1" 404 196 "-" "curl/8.5.0"
+42.104.132.24 - - [25/Jul/2025:14:22:36 +0000] "GET /favicon.ico HTTP/1.1" 404 196 "-" "curl/8.5.0"
+
+==> /var/log/messages <==
+Jul 25 14:29:44 ip-172-31-23-149 kernel: SSH TRAFFIC: IN=enX0 OUT= MAC=0a:ff:d2:d4:7f:8d:0a:ff:f3:61:b3:8d:08:00 SRC=18.206.107.27 DST=172.31.23.149 LEN=52 TOS=0x00 PREC=0x00 TTL=125 ID=47259 DF PROTO=TCP SPT=4128 DPT=22 WINDOW=443 RES=0x00 ACK URGP=0 
+Jul 25 14:29:44 ip-172-31-23-149 kernel: SSH TRAFFIC: IN=enX0 OUT= MAC=0a:ff:d2:d4:7f:8d:0a:ff:f3:61:b3:8d:08:00 SRC=18.206.107.27 DST=172.31.23.149 LEN=52 TOS=0x00 PREC=0x00 TTL=125 ID=47259 DF PROTO=TCP SPT=4128 DPT=22 WINDOW=443 RES=0x00 ACK URGP=0 
+Jul 25 14:29:47 ip-172-31-23-149 kernel: SSH TRAFFIC: IN=enX0 OUT= MAC=0a:ff:d2:d4:7f:8d:0a:ff:f3:61:b3:8d:08:00 SRC=18.206.107.27 DST=172.31.23.149 LEN=248 TOS=0x00 PREC=0x00 TTL=125 ID=47260 DF PROTO=TCP SPT=4128 DPT=22 WINDOW=443 RES=0x00 ACK PSH URGP=0 
+Jul 25 14:29:47 ip-172-31-23-149 kernel: SSH TRAFFIC: IN=enX0 OUT= MAC=0a:ff:d2:d4:7f:8d:0a:ff:f3:61:b3:8d:08:00 SRC=18.206.107.27 DST=172.31.23.149 LEN=248 TOS=0x00 PREC=0x00 TTL=125 ID=47260 DF PROTO=TCP SPT=4128 DPT=22 WINDOW=443 RES=0x00 ACK PSH URGP=0 
+Jul 25 14:29:47 ip-172-31-23-149 kernel: SSH TRAFFIC: IN=enX0 OUT= MAC=0a:ff:d2:d4:7f:8d:0a:ff:f3:61:b3:8d:08:00 SRC=18.206.107.27 DST=172.31.23.149 LEN=52 TOS=0x00 PREC=0x00 TTL=125 ID=47261 DF PROTO=TCP SPT=4128 DPT=22 WINDOW=443 RES=0x00 ACK URGP=0 
+Jul 25 14:29:47 ip-172-31-23-149 kernel: SSH TRAFFIC: IN=enX0 OUT= MAC=0a:ff:d2:d4:7f:8d:0a:ff:f3:61:b3:8d:08:00 SRC=18.206.107.27 DST=172.31.23.149 LEN=52 TOS=0x00 PREC=0x00 TTL=125 ID=47261 DF PROTO=TCP SPT=4128 DPT=22 WINDOW=443 RES=0x00 ACK URGP=0 
+Jul 25 14:29:48 ip-172-31-23-149 kernel: SSH TRAFFIC: IN=enX0 OUT= MAC=0a:ff:d2:d4:7f:8d:0a:ff:f3:61:b3:8d:08:00 SRC=18.206.107.27 DST=172.31.23.149 LEN=88 TOS=0x00 PREC=0x00 TTL=125 ID=47262 DF PROTO=TCP SPT=4128 DPT=22 WINDOW=443 RES=0x00 ACK PSH URGP=0 
+Jul 25 14:29:48 ip-172-31-23-149 kernel: SSH TRAFFIC: IN=enX0 OUT= MAC=0a:ff:d2:d4:7f:8d:0a:ff:f3:61:b3:8d:08:00 SRC=18.206.107.27 DST=172.31.23.149 LEN=88 TOS=0x00 PREC=0x00 TTL=125 ID=47262 DF PROTO=TCP SPT=4128 DPT=22 WINDOW=443 RES=0x00 ACK PSH URGP=0 
+Jul 25 14:29:48 ip-172-31-23-149 kernel: SSH TRAFFIC: IN=enX0 OUT= MAC=0a:ff:d2:d4:7f:8d:0a:ff:f3:61:b3:8d:08:00 SRC=18.206.107.27 DST=172.31.23.149 LEN=52 TOS=0x00 PREC=0x00 TTL=125 ID=47263 DF PROTO=TCP SPT=4128 DPT=22 WINDOW=443 RES=0x00 ACK URGP=0 
+Jul 25 14:29:48 ip-172-31-23-149 kernel: SSH TRAFFIC: IN=enX0 OUT= MAC=0a:ff:d2:d4:7f:8d:0a:ff:f3:61:b3:8d:08:00 SRC=18.206.107.27 DST=172.31.23.149 LEN=52 TOS=0x00 PREC=0x00 TTL=125 ID=47263 DF PROTO=TCP SPT=4128 DPT=22 WINDOW=443 RES=0x00 ACK URGP=0 
+
+==> /var/log/secure <==
+Jul 25 14:28:26 ip-172-31-23-149 sudo[95266]: pam_unix(sudo:session): session closed for user root
+Jul 25 14:28:36 ip-172-31-23-149 sudo[95270]: ec2-user : TTY=pts/0 ; PWD=/home/ec2-user ; USER=root ; COMMAND=/usr/bin/tail -f /var/log/messages
+Jul 25 14:28:36 ip-172-31-23-149 sudo[95270]: pam_unix(sudo:session): session opened for user root(uid=0) by ec2-user(uid=1000)
+Jul 25 14:29:02 ip-172-31-23-149 sudo[95270]: pam_unix(sudo:session): session closed for user root
+Jul 25 14:29:15 ip-172-31-23-149 sudo[95332]: ec2-user : TTY=pts/0 ; PWD=/home/ec2-user ; USER=root ; COMMAND=/usr/sbin/iptables -A INPUT -p tcp --dport 80 -j LOG --log-prefix 'HTTP TRAFFIC: '
+Jul 25 14:29:15 ip-172-31-23-149 sudo[95332]: pam_unix(sudo:session): session opened for user root(uid=0) by ec2-user(uid=1000)
+Jul 25 14:29:15 ip-172-31-23-149 sudo[95332]: pam_unix(sudo:session): session closed for user root
+Jul 25 14:29:15 ip-172-31-23-149 sudo[95336]: ec2-user : TTY=pts/0 ; PWD=/home/ec2-user ; USER=root ; COMMAND=/usr/sbin/iptables -A INPUT -p icmp -j LOG --log-prefix 'PING: '
+Jul 25 14:29:15 ip-172-31-23-149 sudo[95336]: pam_unix(sudo:session): session opened for user root(uid=0) by ec2-user(uid=1000)
+Jul 25 14:29:15 ip-172-31-23-149 sudo[95336]: pam_unix(sudo:session): session closed for user root
+
+==> /var/log/messages <==
+Jul 25 14:29:48 ip-172-31-23-149 audit[95342]: USER_ACCT pid=95342 uid=1000 auid=1000 ses=1 subj=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023 msg='op=PAM:accounting grantors=pam_unix acct="ec2-user" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/0 res=success'
+Jul 25 14:29:48 ip-172-31-23-149 audit[95342]: USER_CMD pid=95342 uid=1000 auid=1000 ses=1 subj=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023 msg='cwd="/home/ec2-user" cmd=7368202D63207461696C202D46202F7661722F6C6F672F68747470642F6163636573735F6C6F67202F7661722F6C6F672F6D65737361676573202F7661722F6C6F672F736563757265202F7661722F6C6F672F63726F6E202F7661722F6C6F672F637573746F6D5F6170702E6C6F67203E3E202F7661722F6C6F672F636F6D62696E65645F6C6F67732E6C6F67 exe="/usr/bin/sudo" terminal=pts/0 res=success'
+Jul 25 14:29:48 ip-172-31-23-149 audit[95342]: CRED_REFR pid=95342 uid=1000 auid=1000 ses=1 subj=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023 msg='op=PAM:setcred grantors=pam_env,pam_unix acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/0 res=success'
+Jul 25 14:29:48 ip-172-31-23-149 audit[95342]: USER_START pid=95342 uid=1000 auid=1000 ses=1 subj=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023 msg='op=PAM:session_open grantors=pam_keyinit,pam_limits,pam_keyinit,pam_limits,pam_systemd,pam_unix acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/0 res=success'
+Jul 25 14:29:48 ip-172-31-23-149 kernel: SSH TRAFFIC: IN=enX0 OUT= MAC=0a:ff:d2:d4:7f:8d:0a:ff:f3:61:b3:8d:08:00 SRC=18.206.107.27 DST=172.31.23.149 LEN=52 TOS=0x00 PREC=0x00 TTL=125 ID=47264 DF PROTO=TCP SPT=4128 DPT=22 WINDOW=443 RES=0x00 ACK URGP=0 
+Jul 25 14:29:48 ip-172-31-23-149 kernel: SSH TRAFFIC: IN=enX0 OUT= MAC=0a:ff:d2:d4:7f:8d:0a:ff:f3:61:b3:8d:08:00 SRC=18.206.107.27 DST=172.31.23.149 LEN=52 TOS=0x00 PREC=0x00 TTL=125 ID=47264 DF PROTO=TCP SPT=4128 DPT=22 WINDOW=443 RES=0x00 ACK URGP=0 
+Jul 25 14:29:48 ip-172-31-23-149 kernel: SSH TRAFFIC: IN=enX0 OUT= MAC=0a:ff:d2:d4:7f:8d:0a:ff:f3:61:b3:8d:08:00 SRC=18.206.107.27 DST=172.31.23.149 LEN=52 TOS=0x00 PREC=0x00 TTL=125 ID=47265 DF PROTO=TCP SPT=4128 DPT=22 WINDOW=443 RES=0x00 ACK URGP=0 
+Jul 25 14:29:48 ip-172-31-23-149 kernel: SSH TRAFFIC: IN=enX0 OUT= MAC=0a:ff:d2:d4:7f:8d:0a:ff:f3:61:b3:8d:08:00 SRC=18.206.107.27 DST=172.31.23.149 LEN=52 TOS=0x00 PREC=0x00 TTL=125 ID=47265 DF PROTO=TCP SPT=4128 DPT=22 WINDOW=443 RES=0x00 ACK URGP=0 
+Jul 25 14:29:48 ip-172-31-23-149 kernel: SSH TRAFFIC: IN=enX0 OUT= MAC=0a:ff:d2:d4:7f:8d:0a:ff:f3:61:b3:8d:08:00 SRC=18.206.107.27 DST=172.31.23.149 LEN=52 TOS=0x00 PREC=0x00 TTL=125 ID=47266 DF PROTO=TCP SPT=4128 DPT=22 WINDOW=443 RES=0x00 ACK URGP=0 
+Jul 25 14:29:48 ip-172-31-23-149 kernel: SSH TRAFFIC: IN=enX0 OUT= MAC=0a:ff:d2:d4:7f:8d:0a:ff:f3:61:b3:8d:08:00 SRC=18.206.107.27 DST=172.31.23.149 LEN=52 TOS=0x00 PREC=0x00 TTL=125 ID=47266 DF PROTO=TCP SPT=4128 DPT=22 WINDOW=443 RES=0x00 ACK URGP=0 
+Jul 25 14:29:48 ip-172-31-23-149 kernel: SSH TRAFFIC: IN=enX0 OUT= MAC=0a:ff:d2:d4:7f:8d:0a:ff:f3:61:b3:8d:08:00 SRC=18.206.107.27 DST=172.31.23.149 LEN=52 TOS=0x00 PREC=0x00 TTL=125 ID=47267 DF PROTO=TCP SPT=4128 DPT=22 WINDOW=443 RES=0x00 ACK URGP=0 
+Jul 25 14:29:48 ip-172-31-23-149 kernel: SSH TRAFFIC: IN=enX0 OUT= MAC=0a:ff:d2:d4:7f:8d:0a:ff:f3:61:b3:8d:08:00 SRC=18.206.107.27 DST=172.31.23.149 LEN=52 TOS=0x00 PREC=0x00 TTL=125 ID=47267 DF PROTO=TCP SPT=4128 DPT=22 WINDOW=443 RES=0x00 ACK URGP=0 
+Jul 25 14:29:48 ip-172-31-23-149 kernel: SSH TRAFFIC: IN=enX0 OUT= MAC=0a:ff:d2:d4:7f:8d:0a:ff:f3:61:b3:8d:08:00 SRC=18.206.107.27 DST=172.31.23.149 LEN=52 TOS=0x00 PREC=0x00 TTL=125 ID=47268 DF PROTO=TCP SPT=4128 DPT=22 WINDOW=443 RES=0x00 ACK URGP=0 
+Jul 25 14:29:48 ip-172-31-23-149 kernel: SSH TRAFFIC: IN=enX0 OUT= MAC=0a:ff:d2:d4:7f:8d:0a:ff:f3:61:b3:8d:08:00 SRC=18.206.107.27 DST=172.31.23.149 LEN=52 TOS=0x00 PREC=0x00 TTL=125 ID=47268 DF PROTO=TCP SPT=4128 DPT=22 WINDOW=443 RES=0x00 ACK URGP=0 
+Jul 25 14:29:48 ip-172-31-23-149 kernel: SSH TRAFFIC: IN=enX0 OUT= MAC=0a:ff:d2:d4:7f:8d:0a:ff:f3:61:b3:8d:08:00 SRC=18.206.107.27 DST=172.31.23.149 LEN=52 TOS=0x00 PREC=0x00 TTL=125 ID=47269 DF PROTO=TCP SPT=4128 DPT=22 WINDOW=443 RES=0x00 ACK URGP=0 
+
+==> /var/log/secure <==
+Jul 25 14:29:48 ip-172-31-23-149 sudo[95342]: ec2-user : TTY=pts/0 ; PWD=/home/ec2-user ; USER=root ; COMMAND=/usr/bin/sh -c 'tail -F /var/log/httpd/access_log /var/log/messages /var/log/secure /var/log/cron /var/log/custom_app.log >> /var/log/combined_logs.log'
+Jul 25 14:29:48 ip-172-31-23-149 sudo[95342]: pam_unix(sudo:session): session opened for user root(uid=0) by ec2-user(uid=1000)
+
+==> /var/log/messages <==
+Jul 25 14:29:48 ip-172-31-23-149 kernel: SSH TRAFFIC: IN=enX0 OUT= MAC=0a:ff:d2:d4:7f:8d:0a:ff:f3:61:b3:8d:08:00 SRC=18.206.107.27 DST=172.31.23.149 LEN=52 TOS=0x00 PREC=0x00 TTL=125 ID=47269 DF PROTO=TCP SPT=4128 DPT=22 WINDOW=443 RES=0x00 ACK URGP=0 
+Jul 25 14:29:48 ip-172-31-23-149 kernel: SSH TRAFFIC: IN=enX0 OUT= MAC=0a:ff:d2:d4:7f:8d:0a:ff:f3:61:b3:8d:08:00 SRC=18.206.107.27 DST=172.31.23.149 LEN=52 TOS=0x00 PREC=0x00 TTL=125 ID=47270 DF PROTO=TCP SPT=4128 DPT=22 WINDOW=443 RES=0x00 ACK URGP=0 
+Jul 25 14:29:48 ip-172-31-23-149 kernel: SSH TRAFFIC: IN=enX0 OUT= MAC=0a:ff:d2:d4:7f:8d:0a:ff:f3:61:b3:8d:08:00 SRC=18.206.107.27 DST=172.31.23.149 LEN=52 TOS=0x00 PREC=0x00 TTL=125 ID=47270 DF PROTO=TCP SPT=4128 DPT=22 WINDOW=443 RES=0x00 ACK URGP=0 
+Jul 25 14:29:48 ip-172-31-23-149 kernel: SSH TRAFFIC: IN=enX0 OUT= MAC=0a:ff:d2:d4:7f:8d:0a:ff:f3:61:b3:8d:08:00 SRC=18.206.107.27 DST=172.31.23.149 LEN=52 TOS=0x00 PREC=0x00 TTL=125 ID=47271 DF PROTO=TCP SPT=4128 DPT=22 WINDOW=443 RES=0x00 ACK URGP=0 
+Jul 25 14:29:48 ip-172-31-23-149 kernel: SSH TRAFFIC: IN=enX0 OUT= MAC=0a:ff:d2:d4:7f:8d:0a:ff:f3:61:b3:8d:08:00 SRC=18.206.107.27 DST=172.31.23.149 LEN=52 TOS=0x00 PREC=0x00 TTL=125 ID=47271 DF PROTO=TCP SPT=4128 DPT=22 WINDOW=443 RES=0x00 ACK URGP=0 
+Jul 25 14:30:04 ip-172-31-23-149 kernel: SSH TRAFFIC: IN=enX0 OUT= MAC=0a:ff:d2:d4:7f:8d:0a:ff:f3:61:b3:8d:08:00 SRC=18.206.107.27 DST=172.31.23.149 LEN=120 TOS=0x00 PREC=0x00 TTL=125 ID=47272 DF PROTO=TCP SPT=4128 DPT=22 WINDOW=443 RES=0x00 ACK PSH URGP=0 
+Jul 25 14:30:04 ip-172-31-23-149 kernel: SSH TRAFFIC: IN=enX0 OUT= MAC=0a:ff:d2:d4:7f:8d:0a:ff:f3:61:b3:8d:08:00 SRC=18.206.107.27 DST=172.31.23.149 LEN=120 TOS=0x00 PREC=0x00 TTL=125 ID=47272 DF PROTO=TCP SPT=4128 DPT=22 WINDOW=443 RES=0x00 ACK PSH URGP=0 
+Jul 25 14:30:04 ip-172-31-23-149 kernel: SSH TRAFFIC: IN=enX0 OUT= MAC=0a:ff:d2:d4:7f:8d:0a:ff:f3:61:b3:8d:08:00 SRC=18.206.107.27 DST=172.31.23.149 LEN=52 TOS=0x00 PREC=0x00 TTL=125 ID=47273 DF PROTO=TCP SPT=4128 DPT=22 WINDOW=443 RES=0x00 ACK URGP=0 
+Jul 25 14:30:04 ip-172-31-23-149 kernel: SSH TRAFFIC: IN=enX0 OUT= MAC=0a:ff:d2:d4:7f:8d:0a:ff:f3:61:b3:8d:08:00 SRC=18.206.107.27 DST=172.31.23.149 LEN=52 TOS=0x00 PREC=0x00 TTL=125 ID=47273 DF PROTO=TCP SPT=4128 DPT=22 WINDOW=443 RES=0x00 ACK URGP=0 
+Jul 25 14:30:05 ip-172-31-23-149 systemd[1]: Starting refresh-policy-routes@enX0.service - Refresh policy routes for enX0...
+Jul 25 14:30:05 ip-172-31-23-149 systemd[1]: Starting sysstat-collect.service - system activity accounting tool...
+Jul 25 14:30:05 ip-172-31-23-149 systemd[1]: sysstat-collect.service: Deactivated successfully.
+Jul 25 14:30:05 ip-172-31-23-149 ec2net[95347]: Starting configuration refresh for enX0
+Jul 25 14:30:05 ip-172-31-23-149 audit[1]: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 subj=system_u:system_r:init_t:s0 msg='unit=sysstat-collect comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Jul 25 14:30:05 ip-172-31-23-149 audit[1]: SERVICE_STOP pid=1 uid=0 auid=4294967295 ses=4294967295 subj=system_u:system_r:init_t:s0 msg='unit=sysstat-collect comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Jul 25 14:30:05 ip-172-31-23-149 systemd[1]: Finished sysstat-collect.service - system activity accounting tool.
+Jul 25 14:30:05 ip-172-31-23-149 ec2net[95347]: No addresses found for enX0
+Jul 25 14:30:05 ip-172-31-23-149 systemd[1]: refresh-policy-routes@enX0.service: Deactivated successfully.
+Jul 25 14:30:05 ip-172-31-23-149 audit[1]: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 subj=system_u:system_r:init_t:s0 msg='unit=refresh-policy-routes@enX0 comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Jul 25 14:30:05 ip-172-31-23-149 audit[1]: SERVICE_STOP pid=1 uid=0 auid=4294967295 ses=4294967295 subj=system_u:system_r:init_t:s0 msg='unit=refresh-policy-routes@enX0 comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Jul 25 14:30:05 ip-172-31-23-149 systemd[1]: Finished refresh-policy-routes@enX0.service - Refresh policy routes for enX0.
+Jul 25 14:30:34 ip-172-31-23-149 kernel: SSH TRAFFIC: IN=enX0 OUT= MAC=0a:ff:d2:d4:7f:8d:0a:ff:f3:61:b3:8d:08:00 SRC=18.206.107.27 DST=172.31.23.149 LEN=120 TOS=0x00 PREC=0x00 TTL=125 ID=47274 DF PROTO=TCP SPT=4128 DPT=22 WINDOW=443 RES=0x00 ACK PSH URGP=0 
+Jul 25 14:30:34 ip-172-31-23-149 kernel: SSH TRAFFIC: IN=enX0 OUT= MAC=0a:ff:d2:d4:7f:8d:0a:ff:f3:61:b3:8d:08:00 SRC=18.206.107.27 DST=172.31.23.149 LEN=120 TOS=0x00 PREC=0x00 TTL=125 ID=47274 DF PROTO=TCP SPT=4128 DPT=22 WINDOW=443 RES=0x00 ACK PSH URGP=0 
+Jul 25 14:30:34 ip-172-31-23-149 kernel: SSH TRAFFIC: IN=enX0 OUT= MAC=0a:ff:d2:d4:7f:8d:0a:ff:f3:61:b3:8d:08:00 SRC=18.206.107.27 DST=172.31.23.149 LEN=52 TOS=0x00 PREC=0x00 TTL=125 ID=47275 DF PROTO=TCP SPT=4128 DPT=22 WINDOW=443 RES=0x00 ACK URGP=0 
+Jul 25 14:30:34 ip-172-31-23-149 kernel: SSH TRAFFIC: IN=enX0 OUT= MAC=0a:ff:d2:d4:7f:8d:0a:ff:f3:61:b3:8d:08:00 SRC=18.206.107.27 DST=172.31.23.149 LEN=52 TOS=0x00 PREC=0x00 TTL=125 ID=47275 DF PROTO=TCP SPT=4128 DPT=22 WINDOW=443 RES=0x00 ACK URGP=0 
+Jul 25 14:31:04 ip-172-31-23-149 kernel: SSH TRAFFIC: IN=enX0 OUT= MAC=0a:ff:d2:d4:7f:8d:0a:ff:f3:61:b3:8d:08:00 SRC=18.206.107.27 DST=172.31.23.149 LEN=120 TOS=0x00 PREC=0x00 TTL=125 ID=47276 DF PROTO=TCP SPT=4128 DPT=22 WINDOW=443 RES=0x00 ACK PSH URGP=0 
+Jul 25 14:31:04 ip-172-31-23-149 kernel: SSH TRAFFIC: IN=enX0 OUT= MAC=0a:ff:d2:d4:7f:8d:0a:ff:f3:61:b3:8d:08:00 SRC=18.206.107.27 DST=172.31.23.149 LEN=120 TOS=0x00 PREC=0x00 TTL=125 ID=47276 DF PROTO=TCP SPT=4128 DPT=22 WINDOW=443 RES=0x00 ACK PSH URGP=0 
+Jul 25 14:31:05 ip-172-31-23-149 kernel: SSH TRAFFIC: IN=enX0 OUT= MAC=0a:ff:d2:d4:7f:8d:0a:ff:f3:61:b3:8d:08:00 SRC=18.206.107.27 DST=172.31.23.149 LEN=52 TOS=0x00 PREC=0x00 TTL=125 ID=47277 DF PROTO=TCP SPT=4128 DPT=22 WINDOW=443 RES=0x00 ACK URGP=0 
+Jul 25 14:31:05 ip-172-31-23-149 kernel: SSH TRAFFIC: IN=enX0 OUT= MAC=0a:ff:d2:d4:7f:8d:0a:ff:f3:61:b3:8d:08:00 SRC=18.206.107.27 DST=172.31.23.149 LEN=52 TOS=0x00 PREC=0x00 TTL=125 ID=47277 DF PROTO=TCP SPT=4128 DPT=22 WINDOW=443 RES=0x00 ACK URGP=0 
+Jul 25 14:31:07 ip-172-31-23-149 systemd[1]: Starting refresh-policy-routes@enX0.service - Refresh policy routes for enX0...
+Jul 25 14:31:07 ip-172-31-23-149 ec2net[95404]: Starting configuration refresh for enX0
+Jul 25 14:31:07 ip-172-31-23-149 ec2net[95404]: No addresses found for enX0
+Jul 25 14:31:07 ip-172-31-23-149 systemd[1]: refresh-policy-routes@enX0.service: Deactivated successfully.
+Jul 25 14:31:07 ip-172-31-23-149 audit[1]: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 subj=system_u:system_r:init_t:s0 msg='unit=refresh-policy-routes@enX0 comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Jul 25 14:31:07 ip-172-31-23-149 audit[1]: SERVICE_STOP pid=1 uid=0 auid=4294967295 ses=4294967295 subj=system_u:system_r:init_t:s0 msg='unit=refresh-policy-routes@enX0 comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Jul 25 14:31:07 ip-172-31-23-149 systemd[1]: Finished refresh-policy-routes@enX0.service - Refresh policy routes for enX0.
+Jul 25 14:31:34 ip-172-31-23-149 kernel: SSH TRAFFIC: IN=enX0 OUT= MAC=0a:ff:d2:d4:7f:8d:0a:ff:f3:61:b3:8d:08:00 SRC=18.206.107.27 DST=172.31.23.149 LEN=120 TOS=0x00 PREC=0x00 TTL=125 ID=47278 DF PROTO=TCP SPT=4128 DPT=22 WINDOW=443 RES=0x00 ACK PSH URGP=0 
+Jul 25 14:31:34 ip-172-31-23-149 kernel: SSH TRAFFIC: IN=enX0 OUT= MAC=0a:ff:d2:d4:7f:8d:0a:ff:f3:61:b3:8d:08:00 SRC=18.206.107.27 DST=172.31.23.149 LEN=120 TOS=0x00 PREC=0x00 TTL=125 ID=47278 DF PROTO=TCP SPT=4128 DPT=22 WINDOW=443 RES=0x00 ACK PSH URGP=0 
+Jul 25 14:31:35 ip-172-31-23-149 kernel: SSH TRAFFIC: IN=enX0 OUT= MAC=0a:ff:d2:d4:7f:8d:0a:ff:f3:61:b3:8d:08:00 SRC=18.206.107.27 DST=172.31.23.149 LEN=52 TOS=0x00 PREC=0x00 TTL=125 ID=47279 DF PROTO=TCP SPT=4128 DPT=22 WINDOW=443 RES=0x00 ACK URGP=0 
+Jul 25 14:31:35 ip-172-31-23-149 kernel: SSH TRAFFIC: IN=enX0 OUT= MAC=0a:ff:d2:d4:7f:8d:0a:ff:f3:61:b3:8d:08:00 SRC=18.206.107.27 DST=172.31.23.149 LEN=52 TOS=0x00 PREC=0x00 TTL=125 ID=47279 DF PROTO=TCP SPT=4128 DPT=22 WINDOW=443 RES=0x00 ACK URGP=0 
+Jul 25 14:32:05 ip-172-31-23-149 kernel: SSH TRAFFIC: IN=enX0 OUT= MAC=0a:ff:d2:d4:7f:8d:0a:ff:f3:61:b3:8d:08:00 SRC=18.206.107.27 DST=172.31.23.149 LEN=120 TOS=0x00 PREC=0x00 TTL=125 ID=47280 DF PROTO=TCP SPT=4128 DPT=22 WINDOW=443 RES=0x00 ACK PSH URGP=0 
+Jul 25 14:32:05 ip-172-31-23-149 kernel: SSH TRAFFIC: IN=enX0 OUT= MAC=0a:ff:d2:d4:7f:8d:0a:ff:f3:61:b3:8d:08:00 SRC=18.206.107.27 DST=172.31.23.149 LEN=120 TOS=0x00 PREC=0x00 TTL=125 ID=47280 DF PROTO=TCP SPT=4128 DPT=22 WINDOW=443 RES=0x00 ACK PSH URGP=0 
+Jul 25 14:32:05 ip-172-31-23-149 kernel: SSH TRAFFIC: IN=enX0 OUT= MAC=0a:ff:d2:d4:7f:8d:0a:ff:f3:61:b3:8d:08:00 SRC=18.206.107.27 DST=172.31.23.149 LEN=52 TOS=0x00 PREC=0x00 TTL=125 ID=47281 DF PROTO=TCP SPT=4128 DPT=22 WINDOW=443 RES=0x00 ACK URGP=0 
+Jul 25 14:32:05 ip-172-31-23-149 kernel: SSH TRAFFIC: IN=enX0 OUT= MAC=0a:ff:d2:d4:7f:8d:0a:ff:f3:61:b3:8d:08:00 SRC=18.206.107.27 DST=172.31.23.149 LEN=52 TOS=0x00 PREC=0x00 TTL=125 ID=47281 DF PROTO=TCP SPT=4128 DPT=22 WINDOW=443 RES=0x00 ACK URGP=0 
+Jul 25 14:32:12 ip-172-31-23-149 amazon-ssm-agent[2141]: 2025-07-25 14:32:12.7153 WARN EC2RoleProvider Failed to connect to Systems Manager with instance profile role credentials. Err: retrieved credentials failed to report to ssm. Error: EC2RoleRequestError: no EC2 instance role found
+Jul 25 14:32:12 ip-172-31-23-149 amazon-ssm-agent[2141]: 2025-07-25 14:32:12.8040 ERROR EC2RoleProvider Failed to connect to Systems Manager with SSM role credentials. error calling RequestManagedInstanceRoleToken: AccessDeniedException: Systems Manager's instance management role is not configured for account: 691831409242
+Jul 25 14:32:12 ip-172-31-23-149 amazon-ssm-agent[2141]: #011status code: 400, request id: 86f1b220-e18e-480e-b0a0-2bee6ee86b6c
+Jul 25 14:32:15 ip-172-31-23-149 systemd[1]: Starting refresh-policy-routes@enX0.service - Refresh policy routes for enX0...
+Jul 25 14:32:15 ip-172-31-23-149 ec2net[95460]: Starting configuration refresh for enX0
+Jul 25 14:32:15 ip-172-31-23-149 ec2net[95460]: No addresses found for enX0
+Jul 25 14:32:15 ip-172-31-23-149 systemd[1]: refresh-policy-routes@enX0.service: Deactivated successfully.
+Jul 25 14:32:15 ip-172-31-23-149 audit[1]: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 subj=system_u:system_r:init_t:s0 msg='unit=refresh-policy-routes@enX0 comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Jul 25 14:32:15 ip-172-31-23-149 audit[1]: SERVICE_STOP pid=1 uid=0 auid=4294967295 ses=4294967295 subj=system_u:system_r:init_t:s0 msg='unit=refresh-policy-routes@enX0 comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Jul 25 14:32:15 ip-172-31-23-149 systemd[1]: Finished refresh-policy-routes@enX0.service - Refresh policy routes for enX0.
+Jul 25 14:32:27 ip-172-31-23-149 kernel: SSH TRAFFIC: IN=enX0 OUT= MAC=0a:ff:d2:d4:7f:8d:0a:ff:f3:61:b3:8d:08:00 SRC=109.205.213.238 DST=172.31.23.149 LEN=40 TOS=0x00 PREC=0x00 TTL=240 ID=15897 PROTO=TCP SPT=46124 DPT=22 WINDOW=1024 RES=0x00 SYN URGP=0 
+Jul 25 14:32:27 ip-172-31-23-149 kernel: SSH TRAFFIC: IN=enX0 OUT= MAC=0a:ff:d2:d4:7f:8d:0a:ff:f3:61:b3:8d:08:00 SRC=109.205.213.238 DST=172.31.23.149 LEN=40 TOS=0x00 PREC=0x00 TTL=240 ID=15897 PROTO=TCP SPT=46124 DPT=22 WINDOW=1024 RES=0x00 SYN URGP=0 
