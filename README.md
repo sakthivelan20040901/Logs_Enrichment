@@ -1,12 +1,14 @@
-#🛡️ Log Enrichment Project
+🛡️ Log Enrichment Project
 
 This repository contains system log data and enriched logs for further analysis and visualization. The goal of this project is to demonstrate how raw system logs can be transformed into enriched datasets for better insights into system activities and security events.
+
 📂 Repository Structure
 
 .
 ├── combined_logs.log      # Raw combined log file collected from multiple sources  
 ├── enriched_logs.csv      # Enriched log file with added contextual information  
 └── README.md              # Project documentation  
+
 
 📜 Description
 🔹 combined_logs.log
